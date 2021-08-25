@@ -392,27 +392,33 @@ h3 {
 }
 .header .contenido-header {
   padding: 2.5rem 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+@media (min-width: 768px) {
+  .header .contenido-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 .header h1 {
   color: #fff;
-  font-size: 3rem;
-  color: #752f97;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header h1 {
+    margin-bottom: 0;
+  }
 }
 
 .navegacion-principal {
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 .navegacion-principal a {
   color: #fff;
   font-size: 2rem;
-  font-size: 2rem;
-  color: #752f97;
-  text-transform: lowercase;
 }
 .navegacion-principal a:hover {
   color: #fef46d;
