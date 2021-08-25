@@ -1,0 +1,5 @@
+@mixin nuevoMixin($transform, $size) {
+    font-size: $size;
+    color:$morado;
+    text-transform: $transform;
+}

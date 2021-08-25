@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -347,7 +348,7 @@ html {
 }
 
 body {
-  font-family: "Arial";
+  font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -370,6 +371,10 @@ img {
   max-width: 100%;
 }
 
+h1, h2, h3 {
+  margin: 0;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -382,16 +387,33 @@ h3 {
   font-size: 3rem;
 }
 
-body {
-  font-size: "Arial";
+.header {
+  background-color: #4CB8B3;
+}
+.header .contenido-header {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  color: #fff;
+  font-size: 3rem;
+  color: #752f97;
+  text-transform: uppercase;
 }
 
-h1 {
-  font-size: "Arial";
-  margin-top: 20px;
+.navegacion-principal {
+  display: flex;
+  gap: 2rem;
 }
-
-p {
-  font-size: "Arial";
-  margin-top: 40px;
+.navegacion-principal a {
+  color: #fff;
+  font-size: 2rem;
+  font-size: 2rem;
+  color: #752f97;
+  text-transform: lowercase;
+}
+.navegacion-principal a:hover {
+  color: #fef46d;
 }
