@@ -16,5 +16,5 @@
 @mixin grid($columnas, $espaciado) {
     display: grid;
     grid-template-columns: repeat($columnas, 1fr);
-    gas: $espaciado;
+    gap: $espaciado;
 }
