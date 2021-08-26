@@ -2,8 +2,7 @@
     padding: $separacion 0;
 
     @include tablet{
-        @include grid(2);
-        column-gap: $separacion;
+        @include grid(2, $separacion);
     }
 }
 .contenido-festival{
